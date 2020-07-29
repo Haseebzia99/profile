@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap');
+
+body {
+
+font-family: 'Bebas Neue', cursive;
+font-family: 'Josefin Sans', sans-serif;
+background-color: #caf0f8;
+}
+
+h1 {
+color: #03045e;
+font-family: 'Bebas Neue', cursive;
+font-size: 100px;
+margin: 25px;
+
+ }
+
+h2 {
+font-family: 'Josefin Sans', sans-serif;
+font-size: 50px;
+
+}
+
+p {
+
+font-family: 'Josefin Sans', sans-serif;
+font-size: 25px;
+
+}
+
+a {
+  font-weight: bold;
+  color: #white;
+
+}
+
+.card {
+  text-align: center;
+  border: 10px solid darkblue;
+  border-radius: 25px
+
+ }
+
+ #top {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border: 10px solid darkblue;
+  box-shadow: 0 0 50px grey
+ }
+
+img {
+  width: 400px;
+  border-radius: 100px;
+  display: center;
+
+
+ }
+
+#button {
+  text-align: center;
+  background: blue;
+  padding: 5px;
+  border: 5px;
+  width: 100px;
+  display: block;
+  margin: 20px auto;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+
+
+#button:hover {
+  color: red;
+  transition: 0.8s;
+}
+
+.logo {
+  color: black;
+ font-size: 50px;
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+}
